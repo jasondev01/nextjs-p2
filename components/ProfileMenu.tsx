@@ -10,7 +10,7 @@ import { SessionInterface } from "@/common.types";
 
 const ProfileMenu = ({ session }: { session: SessionInterface }) => {
     const [ openModal, setOpenModal ] = useState(false);
-    console.log(session)
+    
     return (
         <div className="flexCenter z-10 flex-col relative">
             <Menu as="div">
