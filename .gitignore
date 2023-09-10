@@ -39,3 +39,7 @@ grafbase.config.text
 
 #environment
 .env
+.env*
+
+#note
+note.txt
